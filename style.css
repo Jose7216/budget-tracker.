@@ -1,0 +1,131 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #176b50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main sections */
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Form styling */
+.add-expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-expense-form > input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.expense-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Input focus selector */
+input:focus,
+select:focus {
+    outline: 2px solid #176b50;
+    border-color: #176b50;
+}
+
+/* Negation pseudo-class */
+input:not([type="submit"]) {
+    background-color: #fafafa;
+}
+
+/* Button */
+button {
+    background-color: #176b50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #104b38;
+}
+
+/* Expense table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Colored table header */
+thead {
+    background-color: #176b50;
+    color: white;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #e8f5ef;
+}
+
+/* Table row hover */
+.expenses-section tbody tr:hover {
+    background-color: #cce8d8;
+}
+
+/* Descendant selector */
+.expenses-section td {
+    font-size: 15px;
+}
+
+/* Instructions */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #176b50;
+}
+
+/* Video */
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #176b50;
+    color: white;
+    border-radius: 8px;
+}
